@@ -1,0 +1,26 @@
+{
+  "name": "travel-assistant-h5",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "api:types": "openapi-typescript ../docs/openapi.json -o src/api/generated.ts"
+  },
+  "dependencies": {
+    "vue": "3.5.13",
+    "vue-router": "4.5.1",
+    "pinia": "3.0.2",
+    "element-plus": "2.9.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.10",
+    "vite": "8.3.5",
+    "typescript": "5.8.3",
+    "vue-tsc": "3.3.14",
+    "openapi-typescript": "7.6.1"
+  }
+}

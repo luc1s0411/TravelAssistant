@@ -1,0 +1,19 @@
+{
+  "destination": "杭州",
+  "start_date": "2026-12-01",
+  "end_date": "2026-12-03",
+  "timezone": "Asia/Shanghai",
+  "travelers": 2,
+  "rooms": 1,
+  "arrival_time": "09:00:00",
+  "departure_time": "18:00:00",
+  "transport_mode": "transit",
+  "budget": {
+    "currency": "CNY",
+    "total": { "amount_minor": null, "unlimited": false },
+    "lodging_per_room_night": { "amount_minor": 50000, "unlimited": false },
+    "dining_per_person_day": { "amount_minor": 10000, "unlimited": false },
+    "attraction_per_person_trip": { "amount_minor": 30000, "unlimited": false }
+  },
+  "preferences": ["少走路", "清淡饮食"]
+}
